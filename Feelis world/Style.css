@@ -1,0 +1,258 @@
+header {
+	position: relative;
+	width: 1000px;
+	color: blue;
+	font-size: 60px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+
+/*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+
+.bottom-left {
+	position: absolute;
+	bottom: 25px;
+	left: 75px;
+}
+
+.mainheading {
+	text-decoration: underline;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.subheading {
+	text-decoration: underline;
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 5px;
+}
+
+.bodytop {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.bodymain {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+}
+
+
+/*Containers used on each page*/
+
+
+/*https://www.w3schools.com/css/css3_gradients.asp*/
+
+#containerhome {
+	text-align: center;
+	width: 1000px;
+	height: 820px;
+	margin: auto;
+	background-image: linear-gradient(white, lightgrey);
+}
+
+#containerimg {
+	text-align: center;
+	width: 1000px;
+	height: 2740px;
+	margin: auto;
+	background-image: linear-gradient(white, lightgrey);
+}
+
+#containerabout {
+	text-align: center;
+	width: 1000px;
+	height: 2000px;
+	margin: auto;
+	background-image: linear-gradient(white, lightgrey);
+}
+
+#containerplay {
+	text-align: center;
+	width: 1000px;
+	height: 930px;
+	margin: auto;
+	background-image: linear-gradient(white, lightgrey);
+}
+
+#containersupport {
+	text-align: center;
+	width: 1000px;
+	height: 940px;
+	margin: auto;
+	background-image: linear-gradient(white, lightgrey);
+}
+
+#homeimg {
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+/* Exercise from partical 3 used as reference for navbar*/
+
+#navbar {
+	font-weight: bold;
+	border: 5px outset blue;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: blue;
+	padding: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navbar a:link,
+#navbar a:visited {
+	color: white;
+	padding: 10px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-decoration: none;
+}
+
+#navbar a:hover,
+#navbar a:active {
+	background-color: yellow;
+	color: black;
+}
+
+.bottomlist {
+	color: blue;
+	font-family: "Times New Roman", Times, serif;
+	list-style-type: none;
+	display: inline;
+}
+
+footer {
+	text-align: center;
+	font-size: 18px;
+}
+
+#footer a:link,
+#footer a:visited {
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* Changed the image text to white because of black background in the make shift photo frames */
+
+img {
+	color: white;
+}
+
+.imagesframe {
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	border: 10px outset blue;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	background-color: black;
+	padding: 2px;
+	box-shadow: 3px 3px;
+}
+
+.imagestext {
+	text-align: left;
+	text-decoration: underline;
+}
+
+
+/*Used instead of <b> and <i> in html*/
+
+.aboutq {
+	font-weight: bold;
+}
+
+.abouta {
+	font-style: italic;
+}
+
+table {
+	width: 900px;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+	background-color: lavender;
+	color: black;
+}
+
+table tr:nth-child(odd) {
+	background-color: lightcyan;
+	color: black;
+}
+
+th {
+	color: white;
+	background-color: brown;
+	font-size: 50px;
+}
+
+tr {
+	font-size: 30px;
+	text-align: left
+}
+
+
+/*Just makes the table look nicer to center just the middle one*/
+
+.midcol {
+	text-align: center;
+}
+
+aside {
+	padding-top: 60px;
+	padding-left: 5px;
+	padding-right: 30px;
+	width: 300px;
+	float: right;
+	font-size: 20px;
+	padding-bottom: 100px;
+	text-align: left;
+}
+
+
+/* https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+
+#round {
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+}
+
+
+/* https://www.w3schools.com/css/css3_transitions.asp */
+
+
+/* https://www.w3schools.com/css/css_image_transparency.asp*/
+
+aside:hover #round {
+	transition: .5s ease;
+	opacity: 0.6;
+}
+
+video {
+	padding: 10px;
+	padding-left: 20px;
+}
